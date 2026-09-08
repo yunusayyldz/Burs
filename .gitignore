@@ -1,0 +1,38 @@
+# Ortam ve gizli bilgiler
+.env
+*.env
+token.json
+client_secrets.json
+credentials.json
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Sanal ortam
+venv/
+env/
+ENV/
+
+# Üretilen dosyalar (runtime)
+ciktilar/
+veriler/islenen_burslar.json
+veriler/onay_bekleyenler.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+desktop.ini
+.DS_Store
+Thumbs.db

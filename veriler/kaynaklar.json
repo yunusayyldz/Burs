@@ -1,0 +1,67 @@
+{
+  "kaynaklar": [
+    {
+      "id": "tev",
+      "ad": "Türk Eğitim Vakfı (TEV)",
+      "url": "https://www.tev.org.tr/burslarimiz/tr",
+      "scraper_modulu": "scraper.tev_scraper",
+      "scraper_sinifi": "TEVScraper",
+      "aktif": true,
+      "periyot_saat": 24
+    },
+    {
+      "id": "turkiyeburslari",
+      "ad": "Yurtdışı Türkler ve Akraba Topluluklar Başkanlığı (YTB)",
+      "url": "https://www.turkiyeburslari.gov.tr/duyurular",
+      "scraper_modulu": "scraper.turkiyeburslari_scraper",
+      "scraper_sinifi": "TurkiyeBurslariScraper",
+      "aktif": true,
+      "periyot_saat": 24
+    },
+    {
+      "id": "isbank",
+      "ad": "Türkiye İş Bankası",
+      "url": "https://www.isbank.com.tr/burslar",
+      "scraper_modulu": "scraper.isbank_scraper",
+      "scraper_sinifi": "IsBankasiScraper",
+      "aktif": true,
+      "periyot_saat": 24
+    },
+    {
+      "id": "sabanci",
+      "ad": "Sabancı Vakfı",
+      "url": "https://www.sabancivakfi.org/tr/burslar",
+      "scraper_modulu": "scraper.sabanci_scraper",
+      "scraper_sinifi": "SabanciScraper",
+      "aktif": true,
+      "periyot_saat": 24
+    },
+    {
+      "id": "tupras",
+      "ad": "TÜPRAŞ Burs Programı",
+      "url": "https://www.tupras.com.tr/surdurulebilirlik/sosyal-sorumluluk/burs-programi",
+      "scraper_modulu": "scraper.tupras_scraper",
+      "scraper_sinifi": "TuprasScraper",
+      "aktif": true,
+      "periyot_saat": 24
+    },
+    {
+      "id": "ayb",
+      "ad": "Anadolu Eğitim ve Sosyal Yardım Vakfı",
+      "url": "https://www.anadoluvakfi.org.tr/tr/burs-programi",
+      "scraper_modulu": "scraper.ayb_scraper",
+      "scraper_sinifi": "AYBScraper",
+      "aktif": true,
+      "periyot_saat": 24
+    },
+    {
+      "id": "rss_haberler",
+      "ad": "Burs Duyuruları RSS Beslemesi",
+      "url": "https://news.google.com/rss/search?q=üniversite+burs+başvuruları+when:7d&hl=tr&gl=TR&ceid=TR:tr",
+      "scraper_modulu": "scraper.rss_scraper",
+      "scraper_sinifi": "RSSScraper",
+      "aktif": true,
+      "periyot_saat": 12
+    }
+  ]
+}
